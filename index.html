@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!---->
+  <header class="mb-auto">
+    <nav class="navbar bg-info mb-5 fixed-top">
+      <div class="container-fluid bg-info">
+        <a class="navbar-brand" href="#"> <i class="bi bi-bootstrap"></i></a>
+        <button class="navbar-toggler text-bg-secondary border-0 p-2 rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form id="search_01" class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="cover-container py-5 bg-info main-1 d-flex align-items-center">
+      <div class="row col-lg-6 col-md-8 mx-auto py-lg-5 bg-info align-items-center">
+        <hr class="line-1 text-center">
+        <div class="col col-12 text-center mt-2 mb-2 bg-info">
+          <h1 class="fw-dark about-1 text-white">Zarubina Oleksandra</h1>
+        </div>
+        <hr class="line-1 text-center">
+        <div class="col col-12 text-center bg-info">
+          <p class="text-white">
+            <span class="lead-span p-2">#User Experience</span> <span class="lead-span p-2">#Music</span> <span class="lead-span p-2">#Criative Direction</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5 theSecondContainer">
+      <div class="row d-flex align-items-center">
+          <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <img src="./image/Photo-CV.png" class="card-img-top w-90 rounded-3" alt="...">
+          </div>
+          <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 text-center">
+            <h1  class="title-1 text-center mt-2">Oh yeah, it’s that good. See for yourself.</h1>
+            <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <button type="button" class="btn btn-danger btn-lg">Hire Me!</button>
+          </div>
+      </div>
+    </div>
+
+  <div class="container-fluid theContainerProcess w-100 bg-secondary-subtle text-center">
+    <div class="row mb-2 mt-5">
+      <div class="col text-center mt-5">
+        <h1 class="work_process mt-5 mb-3">My Working Process</h1>
+        <p>Hi, I'm Zarubina Oleksandra</p>
+      </div>
+    </div>
+    <div class="row mb-5 mt-5 justify-content-evenly align-items-center">
+      <div class="col col-12 col-sm-6 col-md-5 col-lg-5 col-xl-2 bg-info block text-center text-white mb-5">
+        <div class="design_about mt-5 mb-5">DESIGN</div> 
+        <div class="wrap_bidisplay mt-5"> 
+          <i class="bi bi-display"></i> 
+        </div>
+      </div>
+      <div class="col col-12 col-sm-6 col-md-5 col-lg-5 col-xl-2 block lilac text-white mb-5">
+        <div class="development_about mt-5 mb-5">DEVELOPMENT</div> 
+        <div class="wrap_bidisplay mt-5"> 
+          <i class="bi bi-magic"></i> 
+        </div>
+      </div>
+      <div class="col col-12 col-sm-6 col-md-5 col-lg-5 col-xl-2 block  dark_blue text-white mb-5">
+        <div class="development_about mt-5 mb-5">TESTING</div>
+        <div class="wrap_bidisplay mt-5"> 
+          <i class="bi bi-sliders2-vertical"></i> 
+        </div>
+      </div>
+      <div class="col col-12 col-sm-6 col-md-5 col-lg-5 col-xl-2 block light_red text-white mb-5">
+        <div class="development_about mt-5 mb-5">LAUNCH</div>
+        <div id="air_rotate" class="wrap_bidisplay mt-5"> 
+          <i class="bi bi-airplane airplane"></i> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid cadetBlue_1 d-flex justify-content-center align-items-center p-5">
+      <div class="row p-5">
+        <div class="col col-12 col-sm-12 col-lg-6">
+          <div class="card CadetBlueLight text-white">
+            <div class="card-body">
+              <h3 class="card-title mt-5 mb-5">WORK EXPERIENCE</h3>
+              <h6 class="card-title2 mt-4">Mad Max Design</h6>
+              <p class="card-text mt-4">OCT 2013 - june 2014</p>
+              <p class="card-text mb-4">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetuer adipiscing. <br> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing. <br> 
+                Ratione eaque suscipit amet, at inventore incidunt perspiciatis. <br> </p>
+              <hr>
+              <h6 class="card-title2 mt-4">Crazy Design</h6>
+              <p class="card-text mt-4">OCT 2014 - june 2015</p>
+              <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet <br> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ratione eaque suscipit amet, 
+                at inventore incidunt perspiciatis. <br> </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-12 col-lg-6">
+          <div class="card CadetBlueLight text-white">
+            <div class="card-body">
+              <h3 class="card-title mt-5 mb-5">EDUCATION</h3>
+              <h6 class="card-title2 mt-4">Maddesign University</h6>
+              <p class="card-text mt-4">OCT 2013 - june 2014</p>
+              <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet <br> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> 
+                Ratione eaque suscipit amet, at inventore incidunt perspiciatis. <br> </p>
+              <hr>
+              <h6 class="card-title2 mt-4">Max Design & Art Institute</h6>
+              <p class="card-text mt-4">OCT 2014 - Present</p>
+              <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet <br> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ratione eaque suscipit amet, 
+                at inventore incidunt perspiciatis. <br> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid theContainerProcess w-100 bg-secondary-subtle text-center">
+      <div class="row mb-2 mt-5">
+        <div class="col text-center mt-5">
+          <h1 class="work_process mt-5 mb-3">My Latest Works</h1>
+          <p>Hi, I'm Zarubina Oleksandra</p>
+        </div>
+      </div>
+      <div class="row mb-5 mt-5 justify-content-center align-items-center">
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-2 col-xl-2 bg-info block_2 text-center text-white mb-5 p-4">
+          <div class="design_about mt-5 mb-5">DESIGN</div> 
+          <div class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-display"></i> 
+          </div>
+        </div>
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-2 col-xl-2 block_2 lilac text-white mb-5 p-4">
+          <div class="development_about mt-5 mb-5">DEVELOPMENT</div> 
+          <div class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-magic"></i> 
+          </div>
+        </div>
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-2 col-xl-2 block_2  dark_blue text-white mb-5 p-4">
+          <div class="development_about mt-5 mb-5">TESTING</div>
+          <div class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-sliders2-vertical"></i> 
+          </div>
+        </div>
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-2 col-xl-2 block_2 light_red text-white mb-5 p-4">
+          <div class="development_about mt-5 mb-5">LAUNCH</div>
+          <div id="air_rotate" class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-airplane airplane"></i> 
+          </div>
+        </div>
+      </div>
+  
+      <div class="row mb-5 mt-5 justify-content-center align-items-center">
+        <div class="col col-12 col-sm-6 col-md-10 col-lg-8 col-xl-4 lilac block_2 text-center text-white mb-5 p-4">
+          <div class="design_about mt-5 mb-5">DESIGN</div> 
+          <div class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-display"></i> 
+          </div>
+        </div>
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 block_2  dark_blue text-white mb-5 p-4">
+          <div class="development_about mt-5 mb-5">TESTING</div>
+          <div class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-sliders2-vertical"></i> 
+          </div>
+        </div>
+        <div class="col col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 block_2 light_red text-white mb-5 p-4">
+          <div class="development_about mt-5 mb-5">LAUNCH</div>
+          <div id="air_rotate" class="wrap_bidisplay mt-5"> 
+            <i class="bi bi-airplane airplane"></i> 
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid d-flex justify-content-center theSecondContainer cadetBlue">
+    <div class="row d-flex align-items-center">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <h1  class="title_2 mt-2"><i class="bi bi-quote"></i></h1>
+          <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <p>Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid cadetBlueDark align-items-center mb-5 p-5">
+    <div class="row p-5 mb-5">
+      <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 mb-5">
+        <div class="card CadetBlueLight2 text-white">
+          <div class="card-body">
+            <h2 class="card-title mt-3 mb-3">LEAVE A MESSAGE</h2>
+            <form id="message_1" name="letter">
+              <div class="mb-3">
+                <label for="exampleInputText_1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleInputText_1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputText_2" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleInputText_2">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputText_3" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleInputText_3">
+              </div>
+              <div class="form-floating mt-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
+              <div class="button_form d-flex justify-content-end mt-5 mb-5">
+                <button type="submit" class="btn light_red px-5 mt-1 text-white">Hire Me!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 mb-5">
+        <div class="card CadetBlueLight2 text-white mb-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12 ms-2">
+                <h2 class="card-title mt-2 mb-3">ADDRESS</h2>
+                <p class="card-title2">Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block</p>
+                <p class="card-title2">SE(A), Gulshan-1, Dhaka 1212.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card CadetBlueLight2 text-white mb-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12 ms-2">
+                <h2 class="card-title mt-4 mb-4">PHONE</h2>
+                <p class="card-title2">+880 174 037 6995</p>
+                <p class="card-title2">+880 191 448 6969</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card CadetBlueLight2 text-white">
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12 ms-2">
+                <h2 class="card-title mt-4 mb-4">WEB</h2>
+                <p class="card-title2">Mail quicksayed@gmail.com</p>
+                <p class="card-title2">Website: dribble.com alisayed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</main>
+
+      <footer class="bg-dark">
+        <ul class="nav justify-content-center pb-3 mb-3 p-5">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-twitter"><span class="border-end ms-3"></span></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"><span class="border-end ms-3"></span></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-bootstrap"><span class="border-end ms-3"></span></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-fan"></i></a></li>
+        </ul>
+        <p class="text-center text-white">&copy; 2023 Company, Inc</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
